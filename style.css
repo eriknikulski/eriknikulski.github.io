@@ -92,3 +92,7 @@ img {
 .socials__link {
     padding: 20px;
 }
+
+@media screen and (min-width: 800px)  {
+    .mobile-break { display: none; }
+}
