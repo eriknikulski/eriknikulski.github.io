@@ -51,6 +51,7 @@ img {
 
 .content__description {
     margin-top: 60px;
+    padding: 0 20px;
     font-size: 1.2em;
     letter-spacing: 1px;
     font-family: monospace;
