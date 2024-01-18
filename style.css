@@ -26,30 +26,30 @@ img {
     margin-bottom: 100px;
 }
 
-.head-row {
+.content__head {
     display:flex;
     justify-content: space-evenly;
 }
 
 @media (max-width: 800px) {
-    .head-row {
+    .content__head {
         flex-direction: column;
     }
 
-    .profile-image {
+    .content__head__pic {
         padding-bottom: 30px;
     }
 }
 
-.profile-image {
+.content__head__pic {
     text-align: center;
 }
 
-.heading {
+.content__head__title {
     text-align: center;
 }
 
-.description {
+.content__description {
     margin-top: 60px;
     font-size: 1.2em;
     letter-spacing: 1px;
@@ -57,7 +57,7 @@ img {
     text-align: center;
 }
 
-.description span {
+.content__description span {
     display: inline-block;
 }
 
@@ -67,6 +67,6 @@ img {
     justify-content: center;
 }
 
-.social-link {
+.socials__link {
     padding: 20px;
 }
