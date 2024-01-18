@@ -26,6 +26,12 @@ img {
     margin-bottom: 100px;
 }
 
+@media (max-width: 800px) {
+    .content {
+        margin-bottom: 60px;
+    }
+}
+
 .content__head {
     display:flex;
     justify-content: space-evenly;
@@ -35,14 +41,16 @@ img {
     .content__head {
         flex-direction: column;
     }
-
-    .content__head__pic {
-        padding-bottom: 30px;
-    }
 }
 
 .content__head__pic {
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .content__head__pic {
+        padding-bottom: 30px;
+    }
 }
 
 .content__head__title {
@@ -57,6 +65,12 @@ img {
     letter-spacing: 1px;
     font-family: monospace;
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .content__description {
+        margin-top: 30px;
+    }
 }
 
 .content__description span {
