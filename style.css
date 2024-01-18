@@ -31,6 +31,20 @@ img {
     justify-content: space-evenly;
 }
 
+@media (max-width: 800px) {
+    .head-row {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        padding-bottom: 30px;
+    }
+}
+
+.profile-image {
+    text-align: center;
+}
+
 .heading {
     text-align: center;
 }
@@ -40,6 +54,11 @@ img {
     font-size: 1.2em;
     letter-spacing: 2px;
     font-family: monospace;
+    text-align: center;
+}
+
+.description span {
+    display: inline-block;
 }
 
 .socials {
