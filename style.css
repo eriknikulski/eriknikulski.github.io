@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #f9f9f9;
 }
 
 h1 {
@@ -16,9 +17,14 @@ img {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
     color: #24292e;
+}
+
+@media (max-width: 800px) {
+    .container {
+        height: 90vh;
+    }
 }
 
 .content {
