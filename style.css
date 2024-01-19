@@ -27,6 +27,11 @@ img {
     }
 }
 
+.container__child {
+    margin: auto;
+    padding: 15px 0;
+}
+
 .content {
     justify-content: space-between;
     margin-bottom: 100px;
