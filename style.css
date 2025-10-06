@@ -32,6 +32,13 @@ img {
     padding: 15px 0;
 }
 
+@media (max-width: 900px) {
+    .content__head__pic img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
 .content {
     justify-content: space-between;
     margin-bottom: 100px;
@@ -40,6 +47,12 @@ img {
 @media (max-width: 800px) {
     .content {
         margin-bottom: 60px;
+    }
+}
+
+@media (max-height: 800px) {
+    .content {
+        margin-bottom: 30px;
     }
 }
 
@@ -76,16 +89,29 @@ img {
     letter-spacing: 1px;
     font-family: monospace;
     text-align: center;
+    line-height: 170%;
 }
 
 @media (max-width: 800px) {
     .content__description {
         margin-top: 30px;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+
+    .content__description div {
+        padding: 4px;
     }
 }
 
 .content__description span {
     display: inline-block;
+}
+
+@media (max-width: 500px) {
+    .content__description span {
+        display: inline;
+    }
 }
 
 .socials {
@@ -94,8 +120,32 @@ img {
     justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .socials {
+        flex-wrap: wrap;
+    }
+}
+
 .socials__link {
     padding: 20px;
+}
+
+@media (max-width: 800px) {
+    .socials__link {
+        padding: 10px;
+    }
+}
+
+.socials__link a[href*="linkedin.com"]:hover svg {
+    fill: #0077B5;
+}
+
+.socials__link a[href*="github.com"]:hover svg {
+    fill: #5C4B99;
+}
+
+.socials__link a[href*="scholar.google.com"]:hover svg {
+    fill: #2BA84A;
 }
 
 .link {
